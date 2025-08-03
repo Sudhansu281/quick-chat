@@ -9,6 +9,7 @@ import ProtectedRoute from "./Components/ProtectedRoute";
 import Loader from "./Components/Loader";
 import { useSelector } from "react-redux";
 import Home from "./Components/Home";
+import Profile from "./profile";
 
 function App() {
   const { loader } = useSelector((state) => state.loaderReducer);
@@ -38,11 +39,11 @@ function App() {
                 <Home />
               </ProtectedRoute> }>
           </Route>
-          {/* <Route path="/profile" element={
+          <Route path="/profile" element={
               <ProtectedRoute>
                 <Profile />
               </ProtectedRoute> }>
-          </Route> */}
+          </Route>
           <Route path="/login" element={<Login /> }></Route>
           <Route path="/signup" element={<Signup /> }></Route>
         </Routes>

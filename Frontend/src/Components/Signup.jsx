@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import { showLoader, hideLoader } from "./../Features/loaderSlice";
 
 function Signup() {
+  const dispatch = useDispatch();
   const navigate = useNavigate();
   const [user, setuser] = useState({
     username: "",

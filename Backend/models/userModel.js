@@ -15,6 +15,10 @@ const userModel = mongoose.Schema(
       type: String,
       requried: true,
     },
+    profilePic: {
+      type: String,
+      required: false,
+    },
   },
   {
     timeStamp: true,
