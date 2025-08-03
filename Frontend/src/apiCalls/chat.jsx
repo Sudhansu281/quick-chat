@@ -1,4 +1,4 @@
-import { axiosInstance ,url} from './index';
+import { axiosInstance,url } from './index';
 
 export const getAllChats = async () => {
     try{
