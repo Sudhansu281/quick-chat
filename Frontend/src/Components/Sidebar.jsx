@@ -109,7 +109,7 @@
 
 // export default Sidebar;
 import { useState } from "react";
-import Search from "./search";
+import Search from "./Search";
 import UserList from "./UserList";
 
 function Sidebar({socket,onlineUser}) {
