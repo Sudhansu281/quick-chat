@@ -6,7 +6,7 @@ import ChatArea from "./ChatArea";
 import { useSelector } from "react-redux";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:8080");
+const socket = io("https://quick-chat-18.onrender.com");
 
 function Home() {
   const { selectedChat, user } = useSelector((state) => state.userReducer);
