@@ -18,7 +18,7 @@ function Header({ socket }) {
     <div className="app-header">
       <div className="app-logo">
         <i className="fa fa-comments" aria-hidden="true"></i>
-        Quick Chat
+        ChatLink
       </div>
       <div className="app-user-profile">
         <div className="logged-user-name">{userData?.name}</div>
